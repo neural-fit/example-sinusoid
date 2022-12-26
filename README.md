@@ -1,2 +1,3 @@
-# example-sinusoid
-🌊 Learn to fit a simple sinusoid with NeuralFit
+# Example: sinusoid
+
+Accompanying code for the tutorial given here: https://neuralfit.net/examples/sinusoid/.
