@@ -7,7 +7,7 @@ x = np.linspace(0, 2*np.pi, 1000)
 y = np.sin(x)
 
 # Create and compile the model
-model = nf.Model(inputs=1, outputs=1)
+model = nf.Model(inputs=1, outputs=1, size=4)
 model.compile(optimizer='alpha', loss='mse', monitors=['size'])
 
 # Evolve the model
